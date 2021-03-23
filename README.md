@@ -1,2 +1,2 @@
-# Exemplos-Portugol
+# Tabuada-no-Portugol
 Alguns exercicios no Portugol
