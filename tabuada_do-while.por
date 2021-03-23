@@ -7,28 +7,26 @@ programa
 
 		contador = 0
 		limite = 10
-
+		
+		//Usuario digita o numero da tabuada
 		escreva("Qual tabuada você quer que eu resolva?  ")
 		leia(tabuada)
 		
-			
+		// do-while em um pseudocodigo	
 		faca{
-
-			resultado = tabuada * contador
-			escreva(tabuada + " X " + contador + " = " + resultado + "\n")
-			contador++
 			
-		}enquanto(contador<=limite)
+			resultado = tabuada * contador 
+			escreva(tabuada + " X " + contador + " = " + resultado + "\n")
+			contador++ // contador = contador + 1
+			
+		}enquanto(contador<=limite) //condicao verdadeiro enquanto contador for menor a 10
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 188; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+
+
+/* $$$ Portugol Studio $$$
+ *
+ * Tabuada em pseudocodigo
+ *
+ * @GuiSato565
  */
